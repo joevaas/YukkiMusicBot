@@ -64,8 +64,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", None) # Example:- https://t.me/TheYukki
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", None)  # Example:- https://t.me/YukkiSupport
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Tamil_Anime_Files") # Example:- https://t.me/TheYukki
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+jaZK8my7IYkyZWI9")  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -164,7 +164,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", https://ibb.co/NdBVRr3V)
+START_IMG_URL = getenv("START_IMG_URL", "https://ibb.co/NdBVRr3V")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
